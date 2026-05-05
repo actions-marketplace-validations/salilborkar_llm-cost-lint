@@ -1,8 +1,8 @@
 name: LLM Cost Lint
-description: >
-  Scans Python files in a pull request for AWS Bedrock and Azure OpenAI SDK
-  calls, estimates per-call and projected monthly cost using current API
-  pricing, and posts a structured cost report as a PR comment.
+description: 
+  Scans Python files in a PR for AWS Bedrock & Azure OpenAI SDK
+  calls, estimates per-call & projected monthly cost using current API
+  pricing, & posts a structured cost report as a PR comment.
 
 author: salilborkar
 
