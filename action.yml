@@ -1,8 +1,5 @@
 name: LLM Cost Lint
-description: 
-  Scans Python files in PR for AWS Bedrock & Azure OpenAI SDK
-  calls, estimates per-call & monthly costs using current API
-  pricing, & posts a report as PR comment.
+description: Shift-left LLM cost linting. Scans PRs for Bedrock and Azure OpenAI calls and posts cost estimates as PR comments.
 
 author: salilborkar
 
